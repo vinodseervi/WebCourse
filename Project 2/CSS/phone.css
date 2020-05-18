@@ -1,0 +1,66 @@
+/* body{
+    background: url('../img/mainbc.jpg');
+  
+} */
+/* Navigation  */
+#navbar {
+    flex-direction: column;
+}
+  
+#navbar ul li a{
+    font-size: 1rem;
+    pad: 0px 5px;
+    padding-bottom: 5px;
+}
+
+/* Home section  */
+#home{
+    height: 350px;
+    padding: 37px 70px;
+
+}
+#home::before{
+    height: 500px;
+}
+#home p{
+    font-size: 15px;
+}
+/* Services section  */
+
+#services{
+  flex-direction: column;
+
+}
+#services .box{
+
+}
+
+/* Clients section  */
+#clients{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+#clients img{
+ width: 66px;
+ padding: 5px;
+ height: auto;
+}
+
+
+ /* contact us section  */
+ #contact-box form{
+     width: 80%;
+ }
+
+
+ /* footer */
+
+
+ /* Utility classes  */
+ .h-primary{
+     font-size: 26px;
+ }
+ .btn{
+     font-size: 20px;
+     padding: 4px 8px;
+ }
