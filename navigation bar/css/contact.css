@@ -2,30 +2,31 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background: url("bcontact.jpg") no-repeat;
-    background: cover;
-	overflow: auto;
+    background: url("../bcontact.jpg") no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.contact{
+#contact{
     margin-top: 100px;
     color: white;
 }
-.contact h1{
+#contact h1{
     font-size: 50px;
     line-height: 10px;
+
 }
-.contact h3{
+#contact h3{
     font-size: 16px;
 }
+
 form{
     margin-top: 50px;
 }
 .form-control{
     width: 600px;
-    background: transparent;
-    border:none;
+    background:transparent;border: none;
     outline: none;
-    border-bottom:1px solid rebeccapurple;
+    border-bottom: 1px solid rebeccapurple;
     color: #fff;
     font-size: 18px;
     margin-bottom: 16px;
@@ -35,31 +36,19 @@ input{
 }
 form .submit{
     background-color: rgb(22, 22, 180);
-    color: rgb(26,14,48);
     border-color: transparent;
+    color: rgb(26,14,48) ;
     font-size: 20px;
     letter-spacing: 2px;
     border-radius: 10px;
     height: 50px;
     margin-top: 20px;
     transition: .5s ease;
-    
+
 }
-  form .submit:hover{
+
+form .submit:hover{
     background-color: #380f0c;
-/*     margin: 100px;*/
-    color: rgb(224,52,52);
+    color: rgb(224, 52, 52);
     cursor: pointer;
 }
-/*
-footer{
-    padding: 10px;
-    font-size: 17px;
-    font-weight: bold;
-    background: #594848;
-    text-align: center;
-    color: wheat;
-    font-family: arial;
-    letter-spacing: 1px;
-}
-*/

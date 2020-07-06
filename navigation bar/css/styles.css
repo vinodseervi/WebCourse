@@ -13,12 +13,13 @@ body{
    
 }
 nav{
-    background-color: #0082e6;
+    background-color: #000000;
     height: 80px;
     width: 100%;
+    opacity: .9;
 }
 label.navbar{
-    color: wheat;
+    color: white;
     font-size: 35px;
     line-height: 80px;
     padding: 0 50px;
@@ -35,14 +36,14 @@ nav ul li{
 
 }
 nav ul li a{
-    color: wheat;
+    color: rgb(255, 11, 11);
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 10px;
     text-transform: uppercase;
 }
 a.active,a:hover{
-    background-color: #1b9bff;
+    background-color: #852020;
     transition: .1s;
 }
 .checkbtn{
@@ -74,7 +75,8 @@ a.active,a:hover{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: #2c3e50;
+        background-color: #218bf5;
+        color: aqua;
         top: 80px;
         left: -100%;
         transition: all .5s;
@@ -92,7 +94,7 @@ a.active,a:hover{
     }
     a:hover,a.active{
         background :none;
-        color: #0082e6;
+        color: #080327;
     }
     #check:checked ~ ul{
         left: 0;
@@ -116,6 +118,12 @@ footer{
 }
 
 
+/* social logo  */
+.social{
+   color: aqua;
+}
+
+
 .logo{
     height: 100vh;
     display: flex;
@@ -125,7 +133,7 @@ footer{
 a{
     height: 70px;
     width: 70px;
-    background-color: rgb(155, 196, 196);
+    background-color: rgb(18, 18, 34);
     border-radius: 50px;
     text-align: center;
     margin: 10px;
@@ -142,10 +150,10 @@ a:hover i{
     color: #f52d6f;
 }
 .fa-youtube-play{
-    color: #e84118;
+    color: #f70303;
 }
 .fa-github{
-    color: rgb(65, 25, 102);
+    color: rgb(117, 59, 172);
 }
 .fa-linkedin{
     color: #0097e6;
