@@ -1,0 +1,52 @@
+body{
+	background-image: url(bc1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1{
+	color: blue;
+	font-size: 50px;
+	text-align: center;
+	justify-content: center;
+}
+#services{
+        margin: 20px;
+        display: flex;
+	    justify-content: center;
+	    text-align: center;
+    }
+    #services .box{
+        border: 2px solid red;
+        padding: 15px;
+        margin: 10px 1px;
+        border-radius: 25px;
+        background-color:lightskyblue;
+    }
+    #services .box img{
+        height: 250px;
+        margin: auto;
+		border-radius: 7px;
+        display: block;
+    }
+
+.content{
+	background: aqua;
+	width: 70%;
+	border-radius: 20px;
+	padding: 40px;
+	margin: 100px auto;
+}
+p{
+	font-size: 25px;
+	color: black;
+}
+footer{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background: black;
+    text-align: center;
+    color: wheat;
+    font-family: arial;
+    letter-spacing: 1px;
+}
