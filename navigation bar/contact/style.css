@@ -1,14 +1,17 @@
 body{
+	background-image: url(bcontact.jpg);
+	background-size: cover;
+	background-attachment: fixed;
     margin: 0;
     padding: 0;
     text-align: center;
-    background: url("bcontact.jpg") no-repeat;
-    background: cover;
-	overflow: auto;
+	justify-content: center;
 }
 .contact{
     margin-top: 100px;
     color: white;
+	text-align: center;
+	justify-content: center;
 }
 .contact h1{
     font-size: 50px;
@@ -51,15 +54,3 @@ form .submit{
     color: rgb(224,52,52);
     cursor: pointer;
 }
-/*
-footer{
-    padding: 10px;
-    font-size: 17px;
-    font-weight: bold;
-    background: #594848;
-    text-align: center;
-    color: wheat;
-    font-family: arial;
-    letter-spacing: 1px;
-}
-*/
