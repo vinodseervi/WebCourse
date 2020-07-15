@@ -1,10 +1,10 @@
 body{
-	background-image: url(bc1.jpg);
+	background-image: url(bc3.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
 h1{
-	color: blue;
+	color: rgb(0, 0, 0);
 	font-size: 50px;
 	text-align: center;
 	justify-content: center;
@@ -16,11 +16,12 @@ h1{
 	    text-align: center;
     }
     #services .box{
+        font-family: 'Do Hyeon', sans-serif;
         border: 2px solid red;
         padding: 15px;
         margin: 10px 1px;
         border-radius: 25px;
-        background-color:lightskyblue;
+        background-color:rgb(54, 92, 116);
     }
     #services .box img{
         height: 250px;
@@ -30,7 +31,8 @@ h1{
     }
 
 .content{
-	background: aqua;
+    font-family: 'Do Hyeon', sans-serif;
+	background: rgb(32, 48, 48);
 	width: 70%;
 	border-radius: 20px;
 	padding: 40px;
